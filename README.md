@@ -40,6 +40,8 @@ fast, and scattered across vendor blogs. This list gathers it in one place.
 - [MITRE ATLAS](https://atlas.mitre.org/) - Adversarial threat landscape for AI systems; includes LLM prompt-injection and MCP-compromise techniques.
 - [NIST AI 600-1 — Generative AI Profile](https://www.nist.gov/itl/ai-risk-management-framework) - Risk-management guidance for generative AI, useful for mapping controls.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - The MCP spec itself; understanding the tool/description model is prerequisite to securing it.
+- [agent-evidence-vectors](https://github.com/astrogilda/agent-evidence-vectors) - Conformance vectors and a reference verifier for the in-toto adversarial-execution-evidence and ai-agent-action predicates; 461 vectors across eight corpora at v0.10.1, each outcome recomputed from the bytes an attestation carries.
+- [aee-vocabulary](https://github.com/astrogilda/aee-vocabulary) - Closed, versioned vocabulary (CC0) for adversarial-execution evidence claims: what an artifact attempted, what the substrate observed or refused, the vantage of the observation, and how much of a declared population a claim covers.
 
 ## Scanners & Tools
 
